@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
-{% include "blog/partials/_head.html" %}
 
-<body>
+<head>
+    {% include "blog/partials/_head.html" %}
+</head>
+
+<body class="dark-theme">
 
     {% include "blog/partials/_header.html" %}
 
@@ -13,5 +15,7 @@
 
     {% include "blog/partials/_footer.html" %}
 
+    {% include 'blog/partials/_temp.html' %}
 </body>
+
 </html>
